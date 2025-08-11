@@ -1,10 +1,157 @@
-<html>
-    <head>
-        <title>Mi primer pagina en el git hub omg ma sheila</title>
-    </head>
-    <body>
-        <h1>Bienvenido a mi sitio de ropa
-            
-        </h1>
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PÁGINA CHIDOTA</title>
+  <style>
+    /* Reset de márgenes y rellenos */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilos generales */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 10px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .product {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 30%;
+      margin-bottom: 20px;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+
+    .product p {
+      font-size: 1rem;
+      color: #777;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PÁGINA CHIDOTA</h1>
+    <nav>
+      <ul>
+        <li><a href="#hombres">Hombres</a></li>
+        <li><a href="#mujeres">Mujeres</a></li>
+        <li><a href="#novedades">Novedades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container" id="hombres">
+    <div class="product">
+      <img src="https://via.placeholder.com/300" alt="Producto 1">
+      <h3>Camiseta Básica</h3>
+      <p>Color: Negro</p>
+      <p>$350 MXN</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300" alt="Producto 2">
+      <h3>Sudadera Oversize</h3>
+      <p>Color: Gris</p>
+      <p>$850 MXN</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300" alt="Producto 3">
+      <h3>Jogger Estilo Callejero</h3>
+      <p>Color: Negro</p>
+      <p>$650 MXN</p>
+    </div>
+  </div>
+
+  <div class="container" id="mujeres">
+    <div class="product">
+      <img src="https://via.placeholder.com/300" alt="Producto 4">
+      <h3>Camiseta Crop</h3>
+      <p>Color: Blanco</p>
+      <p>$300 MXN</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300" alt="Producto 5">
+      <h3>Chaqueta Bomber</h3>
+      <p>Color: Verde Militar</p>
+      <p>$950 MXN</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300" alt="Producto 6">
+      <h3>Leggings Deportivos</h3>
+      <p>Color: Negro</p>
+      <p>$400 MXN</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 PÁGINA CHIDOTA | Todos los derechos reservados</p>
+  </footer>
+</body>
 </html>
